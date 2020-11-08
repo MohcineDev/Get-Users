@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color: #eee;
+}
+nav a{
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(75, 43, 191); 
+    position: relative;
+}
+
+a:hover {
+    background-color: rgb(85, 49, 218);
+}
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+svg{
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+svg path, svg circle{
+    stroke: aliceblue;
+}
